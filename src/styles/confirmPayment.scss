@@ -1,0 +1,72 @@
+@import "base.scss";
+
+.confirm-card-section {
+  width: 600px;
+  margin: 4rem 3rem;
+}
+.confirm-card {
+  background: #ffffff;
+  border-radius: $border-radius;
+  display: block;
+  box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+  padding-bottom: 2rem;
+}
+
+.confirm-card-heading {
+  background: #2f80ed;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.confirm-card-details-container {
+  padding-top: 3rem;
+}
+
+.confirm-card-heading-inner,
+.confirm-card-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+  color: #fff;
+  gap: 1rem;
+  width: 450px;
+  margin: auto;
+  .heading-text {
+    font-weight: $font-weight;
+  }
+}
+
+.font-color {
+  color: #4e598c !important;
+}
+
+.normal-font {
+  font-weight: none !important;
+}
+
+.bold-font {
+  font-weight: $font-weight;
+}
+
+.hor-line {
+  width: 530px;
+  height: 1px;
+  background-color: #817e9e;
+  margin: 0.7rem auto 0 auto;
+}
+
+.total-box-outer {
+  margin: 2rem auto 2rem auto;
+  width: 493px;
+  background: #ffffff;
+}
+
+.total-box-inner {
+  display: flex;
+  border: 1px solid #817e9e;
+  justify-content: space-between;
+  border-radius: 5px;
+  gap: 1rem;
+
+  padding: 15px 20px;
+}

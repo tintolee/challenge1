@@ -1,0 +1,84 @@
+@import "base.scss";
+
+.input-container {
+  margin: 10px 0;
+}
+
+.email-redirect {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+
+  color: #817e9e;
+}
+
+label {
+  line-height: $font-weight;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: $font-weight;
+  display: flex;
+  gap: 8px;
+}
+input,
+select {
+  margin: 10px 0px;
+  width: 100%;
+  max-width: -webkit-fill-available;
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  border-radius: $border-radius;
+  height: 35px;
+  padding: 3px 14px;
+}
+
+.asterisk {
+  color: #eb5757;
+}
+select {
+  height: 45px;
+}
+
+.error {
+  color: rgb(186, 33, 33);
+  font-size: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 170px;
+  font-weight: $font-weight;
+  border-radius: $border-radius;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.cancel-btn {
+  background-color: transparent;
+  color: $secondary-color;
+  &:hover {
+    background-color: rgb(244, 238, 238) !important;
+  }
+}
+
+.next-btn {
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.disable-btn {
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+  color: white;
+  &:hover {
+    cursor: no-drop;
+  }
+}
+
+.btn-value {
+  font-size: 15px;
+  line-height: 25px;
+}

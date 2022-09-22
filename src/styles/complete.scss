@@ -1,0 +1,53 @@
+@import "base.scss";
+
+.completed-container {
+  background-color: #fff;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+  width: 600px;
+  border-radius: $border-radius;
+}
+
+.inner-body {
+  padding: 30px 40px;
+  text-align: start;
+  display: block;
+
+  h1 {
+    color: $secondary-color;
+  }
+  p {
+    color: #4f4f4f;
+    font-size: 13px;
+  }
+}
+
+.circle-tick {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+}
+
+.tick-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.completed-details {
+  width: 300px;
+  margin: auto;
+}
+
+.return-home {
+  color: $primary-color !important;
+  text-decoration: underline;
+  margin-top: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,18 @@
+@import "./styles/base.scss";
+
+@font-face {
+  font-family: "Products";
+  src: local("Products"),
+    url("./assets/fonts/Product\ Sans\ Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: Products;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  background-image: $set_bg_image;
+  background-repeat: no-repeat;
+}

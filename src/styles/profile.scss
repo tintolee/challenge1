@@ -1,0 +1,71 @@
+@import "base.scss";
+
+.top-header {
+  font-weight: $font-weight;
+  font-size: 27px;
+  line-height: 50px;
+  color: $secondary-color;
+}
+
+.stages-info {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-self: center;
+  span {
+    text-transform: capitalize;
+    font-weight: $font-weight;
+    font-size: 18px;
+    line-height: 34px;
+    color: #bdbdbd;
+  }
+  .current-stage {
+    color: $primary-color;
+  }
+}
+
+.horizontal-line {
+  margin-top: 15px;
+  width: 600px;
+  background-color: black;
+  height: 1px;
+}
+
+.horizontal-stage-indicator {
+  background-color: $primary-color;
+  width: 137px;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 228px;
+}
+
+.form-container {
+  margin-top: 3rem;
+  width: 600px;
+}
+
+.select-input-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-self: center;
+  &:nth-child(1) {
+    flex-grow: 1;
+  }
+  &:nth-child(2) {
+    flex-grow: 1;
+  }
+}
+
+.lga {
+  width: 360px;
+}
+.state-input {
+  width: 210px;
+}
+
+.btn-flex {
+  display: inline-flex;
+  gap: 30px;
+}
